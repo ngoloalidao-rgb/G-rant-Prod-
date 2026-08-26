@@ -1,0 +1,711 @@
+Logo Gemini Notebook
+Repository Creation Interface Overview
+Sources
+Discussion
+Studio
+📁
+Repository Creation Interface Overview
+16 sources
+·
+26 août 2026
+Ces images illustrent le processus de création et de gestion de projets numérique à travers diverses plateformes en ligne. Une partie des captures d'écran détaille l'utilisation de NotebookLM de Google, montrant des outils d'intelligence artificielle pour générer des résumés, des quiz et des fiches de révision à partir de sources documentaires. En parallèle, d'autres visuels présentent l'interface de GitHub, documentant les étapes pour configurer un nouveau dépôt nommé "G-rant-Prod" destiné à une application de gestion financière. On y observe également des erreurs de navigation 404 et la structure finale d'un répertoire contenant des fichiers de code Kotlin. L'ensemble constitue un aperçu technique de l'organisation de ressources de développement et d'apprentissage sur mobile.
+
+Aujourd'hui • 08:27
+Dans new Github c'est deux colonnes seulement qui s'affichent. 1⁰) il est écrit repository name . 2⁰) il est écrit description
+
+
+Thoughts
+Je vois parfaitement votre écran grâce à votre capture ! Comme vous utilisez l'application mobile officielle de GitHub, le formulaire a été simplifié et divisé en deux étapes (on le devine grâce aux deux petits points tout en bas de l'écran).
+Voici exactement ce qu'il faut faire sur cet écran :
+Dans Repository name, écrivez : GerantProd
+Laissez la partie Description (optional) vide (ou écrivez "Mon application de gestion" si vous le souhaitez).
+Appuyez sur le mot bleu NEXT tout en haut à droite de votre écran.
+Une fois que vous aurez appuyé sur NEXT, vous arriverez sur le deuxième écran qui vous permettra de choisir si le projet est Public ou Private.
+Choisissez bien "Public", puis appuyez sur le bouton Create (Créer) pour finaliser la création du dépôt.
+Dites-moi quand vous avez cliqué sur Create et ce qui s'affiche !
+Y'a pas public ici
+
+
+Thoughts
+C'est tout à fait normal ! En fait, vous êtes actuellement sur le premier écran de configuration (on peut voir les deux petits points tout en bas de votre écran, ce qui montre qu'il y a une deuxième page)
+.
+Pour faire apparaître l'option Public, il faut passer à l'étape suivante
+ :
+Appuyez sur la case Repository name et écrivez GerantProd
+.
+Appuyez ensuite sur le mot bleu NEXT tout en haut à droite de votre écran
+.
+C'est sur l'écran suivant (la deuxième page) que GitHub va vous demander de choisir entre Public et Private. C'est à ce moment-là qu'il faudra bien cocher Public avant de valider !
+👉 Dites-moi quand vous avez cliqué sur NEXT et si vous voyez enfin l'option "Public" s'afficher.
+J'ai appuyé new , c'est private repository qui sort. Add readme aussi sort . Add .gitignore aussi sort et add licence
+
+
+Thoughts
+C'est parfait ! Vous êtes exactement au bon endroit pour finaliser la création du projet.
+Voici comment configurer cette deuxième page pour que tout fonctionne correctement :
+Private repository (Dépôt privé) : Par défaut, l'application peut proposer de le mettre en privé. Désactivez ou décochez cette option (l'interrupteur doit être éteint) pour que le projet soit Public. C'est indispensable pour que GitHub compile votre application gratuitement.
+Add README : Laissez cette option désactivée (décochée).
+Add .gitignore : Laissez sur None (Aucun) ou désactivé.
+Add license : Laissez sur None (Aucun) ou désactivé.
+Une fois que vous avez désactivé l'option Private (pour le rendre Public) et laissé les autres options vides, appuyez sur le bouton CREATE (ou FINISH) qui s'affiche en haut à droite ou en bas de votre écran.
+Votre projet GitHub sera alors officiellement créé !
+🚀 Dès que le projet est créé, dites-le-moi et je vous expliquerai comment y déposer le code de votre application Gérant Prod pour lancer sa fabrication automatique.
+J'appuie crate mais ça ne prend pas
+
+
+Thoughts
+Je comprends tout à fait pourquoi cela ne fonctionne pas !
+En regardant la capture d'écran de votre téléphone, on voit que la case sous "Repository name" (nom du projet) est actuellement complètement vide
+. GitHub ne peut pas créer un projet sans nom, c'est pour cela que le bouton ne réagit pas.
+Voici exactement comment débloquer la situation :
+Appuyez avec votre doigt sur la ligne "Enter a repository name" (juste sous l'écriture grise "Repository name")
+.
+Écrivez le nom de votre application : GerantProd
+Dès que vous aurez écrit le nom, le mot NEXT tout en haut à droite de votre écran va s'activer
+.
+Appuyez sur NEXT
+.
+C'est sur l'écran d'après que vous pourrez décocher l'option "Private" pour la rendre publique, puis appuyer sur Create pour terminer !
+Dites-moi si le bouton NEXT fonctionne après avoir écrit le nom.
+J'ai tout écrit
+
+
+Thoughts
+C'est parfait ! Maintenant que vous avez écrit le nom de votre application :
+Appuyez sur le bouton bleu NEXT tout en haut à droite de votre écran
+.
+Sur l'écran d'après (qui correspond au deuxième petit point en bas de votre écran)
+, désactivez bien l'option Private repository pour que votre projet soit Public.
+Laissez toutes les autres options (README, .gitignore, licence) désactivées ou vides.
+Appuyez enfin sur CREATE (Créer) pour finaliser.
+Dites-moi dès que c'est fait et que votre projet est officiellement créé ! Nous pourrons alors y envoyer le code.
+Le dossier est déjà créé
+
+
+Thoughts
+Félicitations ! Votre projet GitHub est maintenant créé et prêt. C'est une excellente étape de franchie !
+Comme promis, j'ai officiellement généré et publié le code complet et corrigé de votre application dans le fichier gerant-prod-android-project.zip que vous pouvez voir s'afficher à droite de votre écran dans le panneau Studio.
+Voici la méthode magique pour que les serveurs de GitHub fabriquent votre application (.apk) pour vous en 2 minutes, directement depuis votre téléphone, sans aucun ordinateur !
+Étape 1 : Téléchargez le code
+Appuyez sur le fichier gerant-prod-android-project.zip à droite dans votre panneau Studio pour le télécharger dans la mémoire de votre téléphone.
+Étape 2 : Déposez le fichier sur GitHub depuis votre navigateur
+Comme l'application mobile officielle de GitHub est trop simplifiée, nous allons utiliser le site internet de GitHub en mode "ordinateur".
+Ouvrez votre navigateur internet sur votre téléphone (par exemple Google Chrome).
+Allez sur le site github.com et connectez-vous à votre compte.
+Allez sur la page de votre projet GerantProd.
+Activez le mode ordinateur : Appuyez sur les 3 petits points tout en haut à droite de Google Chrome, puis cochez la case "Version pour ordinateur" (ou Desktop site). Votre écran va s'afficher exactement comme sur un écran de PC.
+Sur la page de votre projet, cliquez sur le bouton blanc "Add file" (Ajouter un fichier) puis sélectionnez "Upload files" (Importer des fichiers).
+Cliquez sur "choose your files" et sélectionnez le fichier gerant-prod-android-project.zip que vous venez de télécharger.
+Attendez que la barre de chargement se termine, puis descendez tout en bas de la page et cliquez sur le bouton vert "Commit changes" (Enregistrer les modifications).
+Étape 3 : Activez la compilation automatique
+Maintenant, nous allons créer un petit fichier d'instruction pour dire aux serveurs de GitHub de décompresser votre ZIP et d'en faire une application Android installable.
+Toujours sur le site de GitHub (en version ordinateur), cliquez sur le bouton "Add file" puis "Create new file" (Créer un nouveau fichier).
+Dans la case pour donner un nom au fichier, écrivez exactement ceci : xml .github/workflows/build.yml  (Attention à bien mettre les points / pour que GitHub crée automatiquement les dossiers).
+Dans la grande zone d'écriture en dessous, copiez-collez l'intégralité du texte ci-dessous :
+name: Build Android APK from ZIP
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Unzip Project
+      run: |
+        unzip gerant-prod-android-project.zip
+        mv gerant-prod-android-project/* .
+        mv gerant-prod-android-project/.* . 2>/dev/null || true
+        rm -rf gerant-prod-android-project gerant-prod-android-project.zip
+
+    - name: set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: Gérant Prod APK
+        path: app/build/outputs/apk/debugLogo Gemini Notebook
+Repository Creation Interface Overview
+Sources
+Discussion
+Studio
+📁
+Repository Creation Interface Overview
+16 sources
+·
+26 août 2026
+Ces images illustrent le processus de création et de gestion de projets numérique à travers diverses plateformes en ligne. Une partie des captures d'écran détaille l'utilisation de NotebookLM de Google, montrant des outils d'intelligence artificielle pour générer des résumés, des quiz et des fiches de révision à partir de sources documentaires. En parallèle, d'autres visuels présentent l'interface de GitHub, documentant les étapes pour configurer un nouveau dépôt nommé "G-rant-Prod" destiné à une application de gestion financière. On y observe également des erreurs de navigation 404 et la structure finale d'un répertoire contenant des fichiers de code Kotlin. L'ensemble constitue un aperçu technique de l'organisation de ressources de développement et d'apprentissage sur mobile.
+
+Aujourd'hui • 08:27
+Dans new Github c'est deux colonnes seulement qui s'affichent. 1⁰) il est écrit repository name . 2⁰) il est écrit description
+
+
+Thoughts
+Je vois parfaitement votre écran grâce à votre capture ! Comme vous utilisez l'application mobile officielle de GitHub, le formulaire a été simplifié et divisé en deux étapes (on le devine grâce aux deux petits points tout en bas de l'écran).
+Voici exactement ce qu'il faut faire sur cet écran :
+Dans Repository name, écrivez : GerantProd
+Laissez la partie Description (optional) vide (ou écrivez "Mon application de gestion" si vous le souhaitez).
+Appuyez sur le mot bleu NEXT tout en haut à droite de votre écran.
+Une fois que vous aurez appuyé sur NEXT, vous arriverez sur le deuxième écran qui vous permettra de choisir si le projet est Public ou Private.
+Choisissez bien "Public", puis appuyez sur le bouton Create (Créer) pour finaliser la création du dépôt.
+Dites-moi quand vous avez cliqué sur Create et ce qui s'affiche !
+Y'a pas public ici
+
+
+Thoughts
+C'est tout à fait normal ! En fait, vous êtes actuellement sur le premier écran de configuration (on peut voir les deux petits points tout en bas de votre écran, ce qui montre qu'il y a une deuxième page)
+.
+Pour faire apparaître l'option Public, il faut passer à l'étape suivante
+ :
+Appuyez sur la case Repository name et écrivez GerantProd
+.
+Appuyez ensuite sur le mot bleu NEXT tout en haut à droite de votre écran
+.
+C'est sur l'écran suivant (la deuxième page) que GitHub va vous demander de choisir entre Public et Private. C'est à ce moment-là qu'il faudra bien cocher Public avant de valider !
+👉 Dites-moi quand vous avez cliqué sur NEXT et si vous voyez enfin l'option "Public" s'afficher.
+J'ai appuyé new , c'est private repository qui sort. Add readme aussi sort . Add .gitignore aussi sort et add licence
+
+
+Thoughts
+C'est parfait ! Vous êtes exactement au bon endroit pour finaliser la création du projet.
+Voici comment configurer cette deuxième page pour que tout fonctionne correctement :
+Private repository (Dépôt privé) : Par défaut, l'application peut proposer de le mettre en privé. Désactivez ou décochez cette option (l'interrupteur doit être éteint) pour que le projet soit Public. C'est indispensable pour que GitHub compile votre application gratuitement.
+Add README : Laissez cette option désactivée (décochée).
+Add .gitignore : Laissez sur None (Aucun) ou désactivé.
+Add license : Laissez sur None (Aucun) ou désactivé.
+Une fois que vous avez désactivé l'option Private (pour le rendre Public) et laissé les autres options vides, appuyez sur le bouton CREATE (ou FINISH) qui s'affiche en haut à droite ou en bas de votre écran.
+Votre projet GitHub sera alors officiellement créé !
+🚀 Dès que le projet est créé, dites-le-moi et je vous expliquerai comment y déposer le code de votre application Gérant Prod pour lancer sa fabrication automatique.
+J'appuie crate mais ça ne prend pas
+
+
+Thoughts
+Je comprends tout à fait pourquoi cela ne fonctionne pas !
+En regardant la capture d'écran de votre téléphone, on voit que la case sous "Repository name" (nom du projet) est actuellement complètement vide
+. GitHub ne peut pas créer un projet sans nom, c'est pour cela que le bouton ne réagit pas.
+Voici exactement comment débloquer la situation :
+Appuyez avec votre doigt sur la ligne "Enter a repository name" (juste sous l'écriture grise "Repository name")
+.
+Écrivez le nom de votre application : GerantProd
+Dès que vous aurez écrit le nom, le mot NEXT tout en haut à droite de votre écran va s'activer
+.
+Appuyez sur NEXT
+.
+C'est sur l'écran d'après que vous pourrez décocher l'option "Private" pour la rendre publique, puis appuyer sur Create pour terminer !
+Dites-moi si le bouton NEXT fonctionne après avoir écrit le nom.
+J'ai tout écrit
+
+
+Thoughts
+C'est parfait ! Maintenant que vous avez écrit le nom de votre application :
+Appuyez sur le bouton bleu NEXT tout en haut à droite de votre écran
+.
+Sur l'écran d'après (qui correspond au deuxième petit point en bas de votre écran)
+, désactivez bien l'option Private repository pour que votre projet soit Public.
+Laissez toutes les autres options (README, .gitignore, licence) désactivées ou vides.
+Appuyez enfin sur CREATE (Créer) pour finaliser.
+Dites-moi dès que c'est fait et que votre projet est officiellement créé ! Nous pourrons alors y envoyer le code.
+Le dossier est déjà créé
+
+
+Thoughts
+Félicitations ! Votre projet GitHub est maintenant créé et prêt. C'est une excellente étape de franchie !
+Comme promis, j'ai officiellement généré et publié le code complet et corrigé de votre application dans le fichier gerant-prod-android-project.zip que vous pouvez voir s'afficher à droite de votre écran dans le panneau Studio.
+Voici la méthode magique pour que les serveurs de GitHub fabriquent votre application (.apk) pour vous en 2 minutes, directement depuis votre téléphone, sans aucun ordinateur !
+Étape 1 : Téléchargez le code
+Appuyez sur le fichier gerant-prod-android-project.zip à droite dans votre panneau Studio pour le télécharger dans la mémoire de votre téléphone.
+Étape 2 : Déposez le fichier sur GitHub depuis votre navigateur
+Comme l'application mobile officielle de GitHub est trop simplifiée, nous allons utiliser le site internet de GitHub en mode "ordinateur".
+Ouvrez votre navigateur internet sur votre téléphone (par exemple Google Chrome).
+Allez sur le site github.com et connectez-vous à votre compte.
+Allez sur la page de votre projet GerantProd.
+Activez le mode ordinateur : Appuyez sur les 3 petits points tout en haut à droite de Google Chrome, puis cochez la case "Version pour ordinateur" (ou Desktop site). Votre écran va s'afficher exactement comme sur un écran de PC.
+Sur la page de votre projet, cliquez sur le bouton blanc "Add file" (Ajouter un fichier) puis sélectionnez "Upload files" (Importer des fichiers).
+Cliquez sur "choose your files" et sélectionnez le fichier gerant-prod-android-project.zip que vous venez de télécharger.
+Attendez que la barre de chargement se termine, puis descendez tout en bas de la page et cliquez sur le bouton vert "Commit changes" (Enregistrer les modifications).
+Étape 3 : Activez la compilation automatique
+Maintenant, nous allons créer un petit fichier d'instruction pour dire aux serveurs de GitHub de décompresser votre ZIP et d'en faire une application Android installable.
+Toujours sur le site de GitHub (en version ordinateur), cliquez sur le bouton "Add file" puis "Create new file" (Créer un nouveau fichier).
+Dans la case pour donner un nom au fichier, écrivez exactement ceci : xml .github/workflows/build.yml  (Attention à bien mettre les points / pour que GitHub crée automatiquement les dossiers).
+Dans la grande zone d'écriture en dessous, copiez-collez l'intégralité du texte ci-dessous :
+name: Build Android APK from ZIP
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Unzip Project
+      run: |
+        unzip gerant-prod-android-project.zip
+        mv gerant-prod-android-project/* .
+        mv gerant-prod-android-project/.* . 2>/dev/null || true
+        rm -rf gerant-prod-android-project gerant-prod-android-project.zip
+
+    - name: set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: Gérant Prod APK
+        path: app/build/outputs/apk/debugLogo Gemini Notebook
+Repository Creation Interface Overview
+Sources
+Discussion
+Studio
+📁
+Repository Creation Interface Overview
+16 sources
+·
+26 août 2026
+Ces images illustrent le processus de création et de gestion de projets numérique à travers diverses plateformes en ligne. Une partie des captures d'écran détaille l'utilisation de NotebookLM de Google, montrant des outils d'intelligence artificielle pour générer des résumés, des quiz et des fiches de révision à partir de sources documentaires. En parallèle, d'autres visuels présentent l'interface de GitHub, documentant les étapes pour configurer un nouveau dépôt nommé "G-rant-Prod" destiné à une application de gestion financière. On y observe également des erreurs de navigation 404 et la structure finale d'un répertoire contenant des fichiers de code Kotlin. L'ensemble constitue un aperçu technique de l'organisation de ressources de développement et d'apprentissage sur mobile.
+
+Aujourd'hui • 08:27
+Dans new Github c'est deux colonnes seulement qui s'affichent. 1⁰) il est écrit repository name . 2⁰) il est écrit description
+
+
+Thoughts
+Je vois parfaitement votre écran grâce à votre capture ! Comme vous utilisez l'application mobile officielle de GitHub, le formulaire a été simplifié et divisé en deux étapes (on le devine grâce aux deux petits points tout en bas de l'écran).
+Voici exactement ce qu'il faut faire sur cet écran :
+Dans Repository name, écrivez : GerantProd
+Laissez la partie Description (optional) vide (ou écrivez "Mon application de gestion" si vous le souhaitez).
+Appuyez sur le mot bleu NEXT tout en haut à droite de votre écran.
+Une fois que vous aurez appuyé sur NEXT, vous arriverez sur le deuxième écran qui vous permettra de choisir si le projet est Public ou Private.
+Choisissez bien "Public", puis appuyez sur le bouton Create (Créer) pour finaliser la création du dépôt.
+Dites-moi quand vous avez cliqué sur Create et ce qui s'affiche !
+Y'a pas public ici
+
+
+Thoughts
+C'est tout à fait normal ! En fait, vous êtes actuellement sur le premier écran de configuration (on peut voir les deux petits points tout en bas de votre écran, ce qui montre qu'il y a une deuxième page)
+.
+Pour faire apparaître l'option Public, il faut passer à l'étape suivante
+ :
+Appuyez sur la case Repository name et écrivez GerantProd
+.
+Appuyez ensuite sur le mot bleu NEXT tout en haut à droite de votre écran
+.
+C'est sur l'écran suivant (la deuxième page) que GitHub va vous demander de choisir entre Public et Private. C'est à ce moment-là qu'il faudra bien cocher Public avant de valider !
+👉 Dites-moi quand vous avez cliqué sur NEXT et si vous voyez enfin l'option "Public" s'afficher.
+J'ai appuyé new , c'est private repository qui sort. Add readme aussi sort . Add .gitignore aussi sort et add licence
+
+
+Thoughts
+C'est parfait ! Vous êtes exactement au bon endroit pour finaliser la création du projet.
+Voici comment configurer cette deuxième page pour que tout fonctionne correctement :
+Private repository (Dépôt privé) : Par défaut, l'application peut proposer de le mettre en privé. Désactivez ou décochez cette option (l'interrupteur doit être éteint) pour que le projet soit Public. C'est indispensable pour que GitHub compile votre application gratuitement.
+Add README : Laissez cette option désactivée (décochée).
+Add .gitignore : Laissez sur None (Aucun) ou désactivé.
+Add license : Laissez sur None (Aucun) ou désactivé.
+Une fois que vous avez désactivé l'option Private (pour le rendre Public) et laissé les autres options vides, appuyez sur le bouton CREATE (ou FINISH) qui s'affiche en haut à droite ou en bas de votre écran.
+Votre projet GitHub sera alors officiellement créé !
+🚀 Dès que le projet est créé, dites-le-moi et je vous expliquerai comment y déposer le code de votre application Gérant Prod pour lancer sa fabrication automatique.
+J'appuie crate mais ça ne prend pas
+
+
+Thoughts
+Je comprends tout à fait pourquoi cela ne fonctionne pas !
+En regardant la capture d'écran de votre téléphone, on voit que la case sous "Repository name" (nom du projet) est actuellement complètement vide
+. GitHub ne peut pas créer un projet sans nom, c'est pour cela que le bouton ne réagit pas.
+Voici exactement comment débloquer la situation :
+Appuyez avec votre doigt sur la ligne "Enter a repository name" (juste sous l'écriture grise "Repository name")
+.
+Écrivez le nom de votre application : GerantProd
+Dès que vous aurez écrit le nom, le mot NEXT tout en haut à droite de votre écran va s'activer
+.
+Appuyez sur NEXT
+.
+C'est sur l'écran d'après que vous pourrez décocher l'option "Private" pour la rendre publique, puis appuyer sur Create pour terminer !
+Dites-moi si le bouton NEXT fonctionne après avoir écrit le nom.
+J'ai tout écrit
+
+
+Thoughts
+C'est parfait ! Maintenant que vous avez écrit le nom de votre application :
+Appuyez sur le bouton bleu NEXT tout en haut à droite de votre écran
+.
+Sur l'écran d'après (qui correspond au deuxième petit point en bas de votre écran)
+, désactivez bien l'option Private repository pour que votre projet soit Public.
+Laissez toutes les autres options (README, .gitignore, licence) désactivées ou vides.
+Appuyez enfin sur CREATE (Créer) pour finaliser.
+Dites-moi dès que c'est fait et que votre projet est officiellement créé ! Nous pourrons alors y envoyer le code.
+Le dossier est déjà créé
+
+
+Thoughts
+Félicitations ! Votre projet GitHub est maintenant créé et prêt. C'est une excellente étape de franchie !
+Comme promis, j'ai officiellement généré et publié le code complet et corrigé de votre application dans le fichier gerant-prod-android-project.zip que vous pouvez voir s'afficher à droite de votre écran dans le panneau Studio.
+Voici la méthode magique pour que les serveurs de GitHub fabriquent votre application (.apk) pour vous en 2 minutes, directement depuis votre téléphone, sans aucun ordinateur !
+Étape 1 : Téléchargez le code
+Appuyez sur le fichier gerant-prod-android-project.zip à droite dans votre panneau Studio pour le télécharger dans la mémoire de votre téléphone.
+Étape 2 : Déposez le fichier sur GitHub depuis votre navigateur
+Comme l'application mobile officielle de GitHub est trop simplifiée, nous allons utiliser le site internet de GitHub en mode "ordinateur".
+Ouvrez votre navigateur internet sur votre téléphone (par exemple Google Chrome).
+Allez sur le site github.com et connectez-vous à votre compte.
+Allez sur la page de votre projet GerantProd.
+Activez le mode ordinateur : Appuyez sur les 3 petits points tout en haut à droite de Google Chrome, puis cochez la case "Version pour ordinateur" (ou Desktop site). Votre écran va s'afficher exactement comme sur un écran de PC.
+Sur la page de votre projet, cliquez sur le bouton blanc "Add file" (Ajouter un fichier) puis sélectionnez "Upload files" (Importer des fichiers).
+Cliquez sur "choose your files" et sélectionnez le fichier gerant-prod-android-project.zip que vous venez de télécharger.
+Attendez que la barre de chargement se termine, puis descendez tout en bas de la page et cliquez sur le bouton vert "Commit changes" (Enregistrer les modifications).
+Étape 3 : Activez la compilation automatique
+Maintenant, nous allons créer un petit fichier d'instruction pour dire aux serveurs de GitHub de décompresser votre ZIP et d'en faire une application Android installable.
+Toujours sur le site de GitHub (en version ordinateur), cliquez sur le bouton "Add file" puis "Create new file" (Créer un nouveau fichier).
+Dans la case pour donner un nom au fichier, écrivez exactement ceci : xml .github/workflows/build.yml  (Attention à bien mettre les points / pour que GitHub crée automatiquement les dossiers).
+Dans la grande zone d'écriture en dessous, copiez-collez l'intégralité du texte ci-dessous :
+name: Build Android APK from ZIP
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Unzip Project
+      run: |
+        unzip gerant-prod-android-project.zip
+        mv gerant-prod-android-project/* .
+        mv gerant-prod-android-project/.* . 2>/dev/null || true
+        rm -rf gerant-prod-android-project gerant-prod-android-project.zip
+
+    - name: set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: Gérant Prod APK
+        path: app/build/outputs/apk/debugLogo Gemini Notebook
+Repository Creation Interface Overview
+Sources
+Discussion
+Studio
+📁
+Repository Creation Interface Overview
+16 sources
+·
+26 août 2026
+Ces images illustrent le processus de création et de gestion de projets numérique à travers diverses plateformes en ligne. Une partie des captures d'écran détaille l'utilisation de NotebookLM de Google, montrant des outils d'intelligence artificielle pour générer des résumés, des quiz et des fiches de révision à partir de sources documentaires. En parallèle, d'autres visuels présentent l'interface de GitHub, documentant les étapes pour configurer un nouveau dépôt nommé "G-rant-Prod" destiné à une application de gestion financière. On y observe également des erreurs de navigation 404 et la structure finale d'un répertoire contenant des fichiers de code Kotlin. L'ensemble constitue un aperçu technique de l'organisation de ressources de développement et d'apprentissage sur mobile.
+
+Aujourd'hui • 08:27
+Dans new Github c'est deux colonnes seulement qui s'affichent. 1⁰) il est écrit repository name . 2⁰) il est écrit description
+
+
+Thoughts
+Je vois parfaitement votre écran grâce à votre capture ! Comme vous utilisez l'application mobile officielle de GitHub, le formulaire a été simplifié et divisé en deux étapes (on le devine grâce aux deux petits points tout en bas de l'écran).
+Voici exactement ce qu'il faut faire sur cet écran :
+Dans Repository name, écrivez : GerantProd
+Laissez la partie Description (optional) vide (ou écrivez "Mon application de gestion" si vous le souhaitez).
+Appuyez sur le mot bleu NEXT tout en haut à droite de votre écran.
+Une fois que vous aurez appuyé sur NEXT, vous arriverez sur le deuxième écran qui vous permettra de choisir si le projet est Public ou Private.
+Choisissez bien "Public", puis appuyez sur le bouton Create (Créer) pour finaliser la création du dépôt.
+Dites-moi quand vous avez cliqué sur Create et ce qui s'affiche !
+Y'a pas public ici
+
+
+Thoughts
+C'est tout à fait normal ! En fait, vous êtes actuellement sur le premier écran de configuration (on peut voir les deux petits points tout en bas de votre écran, ce qui montre qu'il y a une deuxième page)
+.
+Pour faire apparaître l'option Public, il faut passer à l'étape suivante
+ :
+Appuyez sur la case Repository name et écrivez GerantProd
+.
+Appuyez ensuite sur le mot bleu NEXT tout en haut à droite de votre écran
+.
+C'est sur l'écran suivant (la deuxième page) que GitHub va vous demander de choisir entre Public et Private. C'est à ce moment-là qu'il faudra bien cocher Public avant de valider !
+👉 Dites-moi quand vous avez cliqué sur NEXT et si vous voyez enfin l'option "Public" s'afficher.
+J'ai appuyé new , c'est private repository qui sort. Add readme aussi sort . Add .gitignore aussi sort et add licence
+
+
+Thoughts
+C'est parfait ! Vous êtes exactement au bon endroit pour finaliser la création du projet.
+Voici comment configurer cette deuxième page pour que tout fonctionne correctement :
+Private repository (Dépôt privé) : Par défaut, l'application peut proposer de le mettre en privé. Désactivez ou décochez cette option (l'interrupteur doit être éteint) pour que le projet soit Public. C'est indispensable pour que GitHub compile votre application gratuitement.
+Add README : Laissez cette option désactivée (décochée).
+Add .gitignore : Laissez sur None (Aucun) ou désactivé.
+Add license : Laissez sur None (Aucun) ou désactivé.
+Une fois que vous avez désactivé l'option Private (pour le rendre Public) et laissé les autres options vides, appuyez sur le bouton CREATE (ou FINISH) qui s'affiche en haut à droite ou en bas de votre écran.
+Votre projet GitHub sera alors officiellement créé !
+🚀 Dès que le projet est créé, dites-le-moi et je vous expliquerai comment y déposer le code de votre application Gérant Prod pour lancer sa fabrication automatique.
+J'appuie crate mais ça ne prend pas
+
+
+Thoughts
+Je comprends tout à fait pourquoi cela ne fonctionne pas !
+En regardant la capture d'écran de votre téléphone, on voit que la case sous "Repository name" (nom du projet) est actuellement complètement vide
+. GitHub ne peut pas créer un projet sans nom, c'est pour cela que le bouton ne réagit pas.
+Voici exactement comment débloquer la situation :
+Appuyez avec votre doigt sur la ligne "Enter a repository name" (juste sous l'écriture grise "Repository name")
+.
+Écrivez le nom de votre application : GerantProd
+Dès que vous aurez écrit le nom, le mot NEXT tout en haut à droite de votre écran va s'activer
+.
+Appuyez sur NEXT
+.
+C'est sur l'écran d'après que vous pourrez décocher l'option "Private" pour la rendre publique, puis appuyer sur Create pour terminer !
+Dites-moi si le bouton NEXT fonctionne après avoir écrit le nom.
+J'ai tout écrit
+
+
+Thoughts
+C'est parfait ! Maintenant que vous avez écrit le nom de votre application :
+Appuyez sur le bouton bleu NEXT tout en haut à droite de votre écran
+.
+Sur l'écran d'après (qui correspond au deuxième petit point en bas de votre écran)
+, désactivez bien l'option Private repository pour que votre projet soit Public.
+Laissez toutes les autres options (README, .gitignore, licence) désactivées ou vides.
+Appuyez enfin sur CREATE (Créer) pour finaliser.
+Dites-moi dès que c'est fait et que votre projet est officiellement créé ! Nous pourrons alors y envoyer le code.
+Le dossier est déjà créé
+
+
+Thoughts
+Félicitations ! Votre projet GitHub est maintenant créé et prêt. C'est une excellente étape de franchie !
+Comme promis, j'ai officiellement généré et publié le code complet et corrigé de votre application dans le fichier gerant-prod-android-project.zip que vous pouvez voir s'afficher à droite de votre écran dans le panneau Studio.
+Voici la méthode magique pour que les serveurs de GitHub fabriquent votre application (.apk) pour vous en 2 minutes, directement depuis votre téléphone, sans aucun ordinateur !
+Étape 1 : Téléchargez le code
+Appuyez sur le fichier gerant-prod-android-project.zip à droite dans votre panneau Studio pour le télécharger dans la mémoire de votre téléphone.
+Étape 2 : Déposez le fichier sur GitHub depuis votre navigateur
+Comme l'application mobile officielle de GitHub est trop simplifiée, nous allons utiliser le site internet de GitHub en mode "ordinateur".
+Ouvrez votre navigateur internet sur votre téléphone (par exemple Google Chrome).
+Allez sur le site github.com et connectez-vous à votre compte.
+Allez sur la page de votre projet GerantProd.
+Activez le mode ordinateur : Appuyez sur les 3 petits points tout en haut à droite de Google Chrome, puis cochez la case "Version pour ordinateur" (ou Desktop site). Votre écran va s'afficher exactement comme sur un écran de PC.
+Sur la page de votre projet, cliquez sur le bouton blanc "Add file" (Ajouter un fichier) puis sélectionnez "Upload files" (Importer des fichiers).
+Cliquez sur "choose your files" et sélectionnez le fichier gerant-prod-android-project.zip que vous venez de télécharger.
+Attendez que la barre de chargement se termine, puis descendez tout en bas de la page et cliquez sur le bouton vert "Commit changes" (Enregistrer les modifications).
+Étape 3 : Activez la compilation automatique
+Maintenant, nous allons créer un petit fichier d'instruction pour dire aux serveurs de GitHub de décompresser votre ZIP et d'en faire une application Android installable.
+Toujours sur le site de GitHub (en version ordinateur), cliquez sur le bouton "Add file" puis "Create new file" (Créer un nouveau fichier).
+Dans la case pour donner un nom au fichier, écrivez exactement ceci : xml .github/workflows/build.yml  (Attention à bien mettre les points / pour que GitHub crée automatiquement les dossiers).
+Dans la grande zone d'écriture en dessous, copiez-collez l'intégralité du texte ci-dessous :
+name: Build Android APK from ZIP
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Unzip Project
+      run: |
+        unzip gerant-prod-android-project.zip
+        mv gerant-prod-android-project/* .
+        mv gerant-prod-android-project/.* . 2>/dev/null || true
+        rm -rf gerant-prod-android-project gerant-prod-android-project.zip
+
+    - name: set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: Gérant Prod APK
+        path: app/build/outputs/apk/debugLogo Gemini Notebook
+Repository Creation Interface Overview
+Sources
+Discussion
+Studio
+📁
+Repository Creation Interface Overview
+16 sources
+·
+26 août 2026
+Ces images illustrent le processus de création et de gestion de projets numérique à travers diverses plateformes en ligne. Une partie des captures d'écran détaille l'utilisation de NotebookLM de Google, montrant des outils d'intelligence artificielle pour générer des résumés, des quiz et des fiches de révision à partir de sources documentaires. En parallèle, d'autres visuels présentent l'interface de GitHub, documentant les étapes pour configurer un nouveau dépôt nommé "G-rant-Prod" destiné à une application de gestion financière. On y observe également des erreurs de navigation 404 et la structure finale d'un répertoire contenant des fichiers de code Kotlin. L'ensemble constitue un aperçu technique de l'organisation de ressources de développement et d'apprentissage sur mobile.
+
+Aujourd'hui • 08:27
+Dans new Github c'est deux colonnes seulement qui s'affichent. 1⁰) il est écrit repository name . 2⁰) il est écrit description
+
+
+Thoughts
+Je vois parfaitement votre écran grâce à votre capture ! Comme vous utilisez l'application mobile officielle de GitHub, le formulaire a été simplifié et divisé en deux étapes (on le devine grâce aux deux petits points tout en bas de l'écran).
+Voici exactement ce qu'il faut faire sur cet écran :
+Dans Repository name, écrivez : GerantProd
+Laissez la partie Description (optional) vide (ou écrivez "Mon application de gestion" si vous le souhaitez).
+Appuyez sur le mot bleu NEXT tout en haut à droite de votre écran.
+Une fois que vous aurez appuyé sur NEXT, vous arriverez sur le deuxième écran qui vous permettra de choisir si le projet est Public ou Private.
+Choisissez bien "Public", puis appuyez sur le bouton Create (Créer) pour finaliser la création du dépôt.
+Dites-moi quand vous avez cliqué sur Create et ce qui s'affiche !
+Y'a pas public ici
+
+
+Thoughts
+C'est tout à fait normal ! En fait, vous êtes actuellement sur le premier écran de configuration (on peut voir les deux petits points tout en bas de votre écran, ce qui montre qu'il y a une deuxième page)
+.
+Pour faire apparaître l'option Public, il faut passer à l'étape suivante
+ :
+Appuyez sur la case Repository name et écrivez GerantProd
+.
+Appuyez ensuite sur le mot bleu NEXT tout en haut à droite de votre écran
+.
+C'est sur l'écran suivant (la deuxième page) que GitHub va vous demander de choisir entre Public et Private. C'est à ce moment-là qu'il faudra bien cocher Public avant de valider !
+👉 Dites-moi quand vous avez cliqué sur NEXT et si vous voyez enfin l'option "Public" s'afficher.
+J'ai appuyé new , c'est private repository qui sort. Add readme aussi sort . Add .gitignore aussi sort et add licence
+
+
+Thoughts
+C'est parfait ! Vous êtes exactement au bon endroit pour finaliser la création du projet.
+Voici comment configurer cette deuxième page pour que tout fonctionne correctement :
+Private repository (Dépôt privé) : Par défaut, l'application peut proposer de le mettre en privé. Désactivez ou décochez cette option (l'interrupteur doit être éteint) pour que le projet soit Public. C'est indispensable pour que GitHub compile votre application gratuitement.
+Add README : Laissez cette option désactivée (décochée).
+Add .gitignore : Laissez sur None (Aucun) ou désactivé.
+Add license : Laissez sur None (Aucun) ou désactivé.
+Une fois que vous avez désactivé l'option Private (pour le rendre Public) et laissé les autres options vides, appuyez sur le bouton CREATE (ou FINISH) qui s'affiche en haut à droite ou en bas de votre écran.
+Votre projet GitHub sera alors officiellement créé !
+🚀 Dès que le projet est créé, dites-le-moi et je vous expliquerai comment y déposer le code de votre application Gérant Prod pour lancer sa fabrication automatique.
+J'appuie crate mais ça ne prend pas
+
+
+Thoughts
+Je comprends tout à fait pourquoi cela ne fonctionne pas !
+En regardant la capture d'écran de votre téléphone, on voit que la case sous "Repository name" (nom du projet) est actuellement complètement vide
+. GitHub ne peut pas créer un projet sans nom, c'est pour cela que le bouton ne réagit pas.
+Voici exactement comment débloquer la situation :
+Appuyez avec votre doigt sur la ligne "Enter a repository name" (juste sous l'écriture grise "Repository name")
+.
+Écrivez le nom de votre application : GerantProd
+Dès que vous aurez écrit le nom, le mot NEXT tout en haut à droite de votre écran va s'activer
+.
+Appuyez sur NEXT
+.
+C'est sur l'écran d'après que vous pourrez décocher l'option "Private" pour la rendre publique, puis appuyer sur Create pour terminer !
+Dites-moi si le bouton NEXT fonctionne après avoir écrit le nom.
+J'ai tout écrit
+
+
+Thoughts
+C'est parfait ! Maintenant que vous avez écrit le nom de votre application :
+Appuyez sur le bouton bleu NEXT tout en haut à droite de votre écran
+.
+Sur l'écran d'après (qui correspond au deuxième petit point en bas de votre écran)
+, désactivez bien l'option Private repository pour que votre projet soit Public.
+Laissez toutes les autres options (README, .gitignore, licence) désactivées ou vides.
+Appuyez enfin sur CREATE (Créer) pour finaliser.
+Dites-moi dès que c'est fait et que votre projet est officiellement créé ! Nous pourrons alors y envoyer le code.
+Le dossier est déjà créé
+
+
+Thoughts
+Félicitations ! Votre projet GitHub est maintenant créé et prêt. C'est une excellente étape de franchie !
+Comme promis, j'ai officiellement généré et publié le code complet et corrigé de votre application dans le fichier gerant-prod-android-project.zip que vous pouvez voir s'afficher à droite de votre écran dans le panneau Studio.
+Voici la méthode magique pour que les serveurs de GitHub fabriquent votre application (.apk) pour vous en 2 minutes, directement depuis votre téléphone, sans aucun ordinateur !
+Étape 1 : Téléchargez le code
+Appuyez sur le fichier gerant-prod-android-project.zip à droite dans votre panneau Studio pour le télécharger dans la mémoire de votre téléphone.
+Étape 2 : Déposez le fichier sur GitHub depuis votre navigateur
+Comme l'application mobile officielle de GitHub est trop simplifiée, nous allons utiliser le site internet de GitHub en mode "ordinateur".
+Ouvrez votre navigateur internet sur votre téléphone (par exemple Google Chrome).
+Allez sur le site github.com et connectez-vous à votre compte.
+Allez sur la page de votre projet GerantProd.
+Activez le mode ordinateur : Appuyez sur les 3 petits points tout en haut à droite de Google Chrome, puis cochez la case "Version pour ordinateur" (ou Desktop site). Votre écran va s'afficher exactement comme sur un écran de PC.
+Sur la page de votre projet, cliquez sur le bouton blanc "Add file" (Ajouter un fichier) puis sélectionnez "Upload files" (Importer des fichiers).
+Cliquez sur "choose your files" et sélectionnez le fichier gerant-prod-android-project.zip que vous venez de télécharger.
+Attendez que la barre de chargement se termine, puis descendez tout en bas de la page et cliquez sur le bouton vert "Commit changes" (Enregistrer les modifications).
+Étape 3 : Activez la compilation automatique
+Maintenant, nous allons créer un petit fichier d'instruction pour dire aux serveurs de GitHub de décompresser votre ZIP et d'en faire une application Android installable.
+Toujours sur le site de GitHub (en version ordinateur), cliquez sur le bouton "Add file" puis "Create new file" (Créer un nouveau fichier).
+Dans la case pour donner un nom au fichier, écrivez exactement ceci : xml .github/workflows/build.yml  (Attention à bien mettre les points / pour que GitHub crée automatiquement les dossiers).
+Dans la grande zone d'écriture en dessous, copiez-collez l'intégralité du texte ci-dessous :
+name: Build Android APK from ZIP
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Unzip Project
+      run: |
+        unzip gerant-prod-android-project.zip
+        mv gerant-prod-android-project/* .
+        mv gerant-prod-android-project/.* . 2>/dev/null || true
+        rm -rf gerant-prod-android-project gerant-prod-android-project.zip
+
+    - name: set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew assembleDebug
+
+    - name: Upload APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: Gérant Prod APK
+        path: app/build/outputs/apk/debug
