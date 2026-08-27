@@ -1,4 +1,10 @@
-# Enregistrez ce fichier sous le nom : .github/workflows/build.yml
+
+            defaultConfig {
+                applicationId "com.example.gerantprod"
+                minSdk 24
+                targetSdk 33
+                versionCode 1
+                versionName "1.0"# Enregistrez ce fichier sous le nom : .github/workflows/build.yml
 # dans votre dépôt GitHub pour compiler automatiquement votre APK.
 
 name: Build Android APK
@@ -73,12 +79,6 @@ jobs:
             namespace 'com.example.gerantprod'
             compileSdk 33
 
-            defaultConfig {
-                applicationId "com.example.gerantprod"
-                minSdk 24
-                targetSdk 33
-                versionCode 1
-                versionName "1.0"
                 vectorDrawables {
                     useSupportLibrary true
                 }
